@@ -1,0 +1,77 @@
+* {
+  box-sizing: border-box;
+}
+
+.App {
+  width: 50%;
+  border: 1px solid;
+  position: absolute;
+  top: 25%;
+  left: 25%;
+}
+
+.App span {
+  font-size: 18px;
+  color: #fff;
+}
+
+.display {
+  padding: 1rem;
+  display: flex;
+  justify-content: flex-end;
+  background-color: #969494;
+}
+
+.operators {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.operators button {
+  padding: 1rem;
+  border: 1px outset;
+  font-size: 18px;
+}
+
+.item-1 {
+  grid-column-start: 4;
+  grid-column-end: 5;
+  grid-row-start: 0;
+  grid-row-end: 1;
+}
+
+.item-2 {
+  grid-column-start: 4;
+  grid-column-end: 5;
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
+
+.item-3 {
+  grid-column-start: 4;
+  grid-column-end: 5;
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+
+.item-4 {
+  grid-column-start: 4;
+  grid-column-end: 5;
+  grid-row-start: 3;
+  grid-row-end: 4;
+}
+
+.item-6 {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 4;
+  grid-row-end: 5;
+}
+
+.item-1,
+.item-2,
+.item-3,
+.item-4,
+.item-5 {
+  background: rgb(228, 145, 107);
+}
