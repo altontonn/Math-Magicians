@@ -1,8 +1,19 @@
-// eslint-disable-next-line react/prefer-stateless-function
-import './App.css';
+import React, { Component } from 'react';
 import Calculator from './components/Calculator';
+import './css/style.css';
 
-const App = () => (
-  <Calculator />
-);
+class App extends Component {
+  constructor(props) {
+    super(props);
+    this.state = { };
+  }
+
+  render() {
+    return (
+      <div>
+        <Calculator />
+      </div>
+    );
+  }
+}
 export default App;

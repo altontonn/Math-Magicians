@@ -37,7 +37,7 @@ class Calculator extends Component {
             <button className="item-4" type="button">+</button>
             <button className="item-5" type="button">=</button>
             <button className="item-6" type="button">0</button>
-            <button className="item-7" type="button">.</button>
+            <button className="item" type="button">.</button>
           </div>
         </div>
       </div>
