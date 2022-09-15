@@ -31,9 +31,7 @@ const Calculator = () => {
         <div className="display">
           <span>
             {state.total}
-            {' '}
             {state.operation}
-            {' '}
             {state.next}
           </span>
         </div>
