@@ -26,27 +26,31 @@ const Calculator = () => {
   };
 
   return (
-    <div className="App">
-      <div className="calculator">
-        <div className="display">
-          <span>
-            {state.total}
-            {state.operation}
-            {state.next}
-          </span>
-        </div>
-        <div className="operators">
-          <button className="item" onClick={clickButton} type="button">AC</button>
-          <button className="item" onClick={clickButton} type="button">+/-</button>
-          <button className="item" onClick={clickButton} type="button">%</button>
-          {createNumbers()}
-          <button className="item-1" onClick={clickButton} type="button">&divide;</button>
-          <button className="item-2" onClick={clickButton} type="button">x</button>
-          <button className="item-3" onClick={clickButton} type="button">-</button>
-          <button className="item-4" onClick={clickButton} type="button">+</button>
-          <button className="item-5" onClick={clickButton} type="button">=</button>
-          <button className="item-6" onClick={clickButton} type="button">0</button>
-          <button className="item" onClick={clickButton} type="button">.</button>
+    <div className="calc">
+      <h1>Math Magicians</h1>
+      <p>Let&rsquo;s do some Maths!</p>
+      <div className="App">
+        <div className="calculator">
+          <div className="display">
+            <span>
+              {state.total}
+              {state.operation}
+              {state.next}
+            </span>
+          </div>
+          <div className="operators">
+            <button className="item" onClick={clickButton} type="button">AC</button>
+            <button className="item" onClick={clickButton} type="button">+/-</button>
+            <button className="item" onClick={clickButton} type="button">%</button>
+            {createNumbers()}
+            <button className="item-1" onClick={clickButton} type="button">&divide;</button>
+            <button className="item-2" onClick={clickButton} type="button">x</button>
+            <button className="item-3" onClick={clickButton} type="button">-</button>
+            <button className="item-4" onClick={clickButton} type="button">+</button>
+            <button className="item-5" onClick={clickButton} type="button">=</button>
+            <button className="item-6" onClick={clickButton} type="button">0</button>
+            <button className="item" onClick={clickButton} type="button">.</button>
+          </div>
         </div>
       </div>
     </div>
