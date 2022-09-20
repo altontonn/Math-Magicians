@@ -11,8 +11,11 @@ class Quote extends React.Component {
   render() {
     const { message } = this.state;
     return (
-      <div className="content">
-        <p>{message}</p>
+      <div className="quote">
+        <h1>Math Magicians</h1>
+        <div className="content">
+          <p>{message}</p>
+        </div>
       </div>
     );
   }

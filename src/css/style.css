@@ -154,3 +154,8 @@
 .calc p {
   font-size: 1.2rem;
 }
+
+.quote h1 {
+  font-family: cursive;
+  margin-left: 1rem;
+}
