@@ -39,7 +39,7 @@ const Calculator = () => {
             </span>
           </div>
           <div className="operators">
-            <button className="item" onClick={clickButton} type="button">AC</button>
+            <button className="item" data-testid="test-1" onClick={clickButton} type="button">AC</button>
             <button className="item" onClick={clickButton} type="button">+/-</button>
             <button className="item" onClick={clickButton} type="button">%</button>
             {createNumbers()}

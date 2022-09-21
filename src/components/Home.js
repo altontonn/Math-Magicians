@@ -14,7 +14,7 @@ class Home extends React.Component {
       <div className="home">
         <h1>Math Magicians</h1>
         <p className="header">Welcome to our page!</p>
-        <p className="p1">{para1}</p>
+        <p className="p1" data-testid="p1">{para1}</p>
         <p className="p2">{para1}</p>
       </div>
     );
