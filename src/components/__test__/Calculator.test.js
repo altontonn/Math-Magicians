@@ -34,12 +34,12 @@ describe('Testin Calculator component', () => {
     expect(data).toHaveTextContent('7');
   });
 
-  it('Test button 7 is on document', () => {
+  it('Test button 3 is on document', () => {
     render(<Calculator />);
-    fireEvent.click(screen.getByText('5'), (e) => {
+    fireEvent.click(screen.getByText('3'), (e) => {
       screen.getByTestId('result').innerHTML = e.target.innerText;
     });
     const data = screen.getByTestId('result');
-    expect(data).toHaveTextContent('5');
+    expect(data).toHaveTextContent('3');
   });
 });
