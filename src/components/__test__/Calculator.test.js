@@ -5,7 +5,7 @@ import Calculator from '../Calculator';
 describe('Testin Calculator component', () => {
   it('Test AC Button', () => {
     render(<Calculator />);
-    fireEvent.click(screen.getByText('AC'), (e) => {
+    fireEvent.click(screen.getByText('AC'), () => {
       screen.getByTestId('result').innerHTML = '';
     });
     const data = screen.getByTestId('result');
