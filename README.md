@@ -21,7 +21,7 @@
 
 
 ## Live Demo
-[Not Available]()
+[Seel Live](https://calc-tonn.netlify.app/)
 
 ## 🧰 Tools
 
@@ -44,6 +44,7 @@ git clone https://github.com/altontonn/math-magicians/.git
 ## 🙎🏾‍♂️ Authors
 
 - GitHub: [Newton Alumasa](https://github.com/altontonn)
+- GitHub: [Melashu Amare](https://github.com/melashu)
 
 ## 🤝 Contributing
 
