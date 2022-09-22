@@ -1,7 +1,7 @@
 // eslint-disable-line
-import React, { useState } from "react";
-import "../css/style.css";
-import calculate from "../logic/calculate";
+import React, { useState } from 'react';
+import '../css/style.css';
+import calculate from '../logic/calculate';
 
 const Calculator = () => {
   const [state, setState] = useState({
@@ -26,7 +26,7 @@ const Calculator = () => {
           type="button"
         >
           {i}
-        </button>
+        </button>,
       );
     }
     return digits;
