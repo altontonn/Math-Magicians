@@ -34,7 +34,6 @@ const Calculator = () => {
 
   return (
     <div className="calc">
-      <h1>Math Magicians</h1>
       <p>Let&rsquo;s do some Maths!</p>
       <div className="App">
         <div className="calculator">

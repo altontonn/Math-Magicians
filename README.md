@@ -5,14 +5,14 @@
 > Math Magician app
 
 **Additional description about the project and its features.**
-- This is a set up
+- This is a React calculator app that does the mathematical calculation.
 
 ## Linter for React
 - [Linter](https://github.com/microverseinc/linters-config/tree/master/react-redux)
 
 ## ⚒️ Built With
 
-- REACT
+- REACT, CSS3
 
 ## Run Project
 
