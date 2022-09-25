@@ -110,6 +110,13 @@
   background-color: #faebd7;
 }
 
+@media screen and (max-width: 500px) {
+  .nav {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
 .nav ul {
   list-style: none;
   display: flex;
