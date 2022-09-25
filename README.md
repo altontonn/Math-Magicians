@@ -1,6 +1,7 @@
 
 
 # React Math-Magician App
+<img src="img/FireShot-math.png">
 
 > Math Magician app
 
